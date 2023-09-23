@@ -1,4 +1,4 @@
-<div class="p-6 lg:p-8 bg-white border-b border-gray-200">
+{{-- <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
     <x-application-logo class="block h-12 w-auto" />
 
     <h1 class="mt-8 text-2xl font-medium text-gray-900">
@@ -11,9 +11,28 @@
         you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
         ecosystem to be a breath of fresh air. We hope you love it.
     </p>
-</div>
+    <div class="mt-4">
+        <button type="button" class="btn btn-dark text-black">Read Article</button>
+    </div>
 
-<div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 p-6 lg:p-8">
+    <div class="mt-4">
+        <button class="btn btn btn-success text-green-500">Edit Article</button>
+    </div>
+
+    <div class="mt-4">
+        <button class="btn btn btn-primary text-purple-700">Write Article</button>
+    </div>
+
+    <div class="mt-4">
+        <button class="btn btn btn-danger text-red-600">Delete Article</button>
+    </div>
+
+    <div class="mt-4">
+        {{ $page.props }}
+    </div>
+</div> --}}
+
+{{-- <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 p-6 lg:p-8">
     <div>
         <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-gray-400">
@@ -93,4 +112,75 @@
             Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started with what matters most: building your application.
         </p>
     </div>
+</div> --}}
+<div>
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3>150</h3>
+    
+                            <p>New Testimonials</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-bag"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            <h3>53<sup style="font-size: 20px">%</sup></h3>
+    
+                            <p>Clients</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3>44</h3>
+    
+                            <p>User Registrations</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-danger">
+                        <div class="inner">
+                            <h3>65</h3>
+    
+                            <p>Unique Visitors</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-pie-graph"></i>
+                        </div>
+                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+            <!-- /.row -->
+        </div>
+    </section>
 </div>
+
