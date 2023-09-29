@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Livewire\Admin;
+use App\Livewire\Admin;
 use App\Livewire\Admin\Testimonials\Index;
 
 /*
